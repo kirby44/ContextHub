@@ -130,6 +130,7 @@ log_dirs = ["/home/kazukik-wsl/.vscode-server/data/logs", "/mnt/c/Users/kazuk/Ap
 output_file = ".context/logs.txt"
 log_level = "info"
 channels = ["LLDB", "Python Language Server"]
+```
 
 ## Output
 
