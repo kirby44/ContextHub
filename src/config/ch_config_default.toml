@@ -1,0 +1,36 @@
+[general]
+copy_to_clipboard = true
+print_summary = true
+
+[shared]
+exclude_dirs = [".git", ".github", ".context", "node_modules", "__pycache__"]
+
+[content]
+enabled = true
+exclude_prefixes = ["package-lock"]
+recursive = true
+prefixes = []
+suffixes = []
+all_dirs = []
+
+[tree]
+enabled = true
+default_depth = 5
+# limits = { "src" = 5 }
+
+[callstack]
+exclude_scopes = ["Global"]
+exclude_variable_names = ["__dirname"]
+include_variable_patterns = []
+# project_root = "/path/to/project/root"
+include_source_snippet = true
+snippet_lines = 5
+maxVariableDepth = 2
+maxVariableLines = 10
+
+[log_aggregator]
+enabled = true
+time_range_hours = 24
+max_lines = 50
+log_level = "info"
+channels = ["Window"]
